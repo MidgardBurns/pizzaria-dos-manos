@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizzaria dos Manos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+<div class="paginas" id="paginas">
+  <nav class="nav" id="nav">
+    <a class="nav__marca" href="#inicio"><img id="navLogo" alt="" src=""></a>
+    <button class="nav__menu" id="btnMenu" aria-label="Abrir menu" aria-expanded="false">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <div class="nav__links" id="navLinks"></div>
+    <div class="nav__social" id="navSocial" aria-label="Redes sociais"></div>
+  </nav>
+
+  <!-- ============ SEÇÃO 1 — BANNER ============ -->
+  <section class="secao banner" id="inicio">
+    <div class="container banner__grid">
+      <div class="banner__conteudo">
+        <img class="selo" id="heroSelo" alt="" src="">
+        <p class="sobretitulo" id="heroSobre"></p>
+        <h1 class="titulo" id="heroTitulo"></h1>
+        <svg class="rabisco" viewBox="0 0 240 42" aria-hidden="true"><path d="M8 30C62 12 118 9 186 8c-34 7-68 12-104 21 44-4 88-8 132-5"/></svg>
+        <p class="banner__texto" id="heroTexto"></p>
+        <a class="btn" id="heroBtn" href="#cardapio">
+          <span></span>
+          <svg viewBox="0 0 24 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 8h20M15 2l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="banner__foto"><img id="heroFoto" alt="" src=""></div>
+    </div>
+  </section>
+
+  <!-- ============ SEÇÃO 2 — CARDÁPIO ============ -->
+  <section class="secao cardapio" id="cardapio">
+    <div class="container">
+      <p class="sobretitulo" id="menuSobre"></p>
+      <h2 class="cardapio__titulo" id="menuTitulo"></h2>
+      <div class="pizzas" id="pizzas"></div>
+    </div>
+  </section>
+
+  <!-- ============ SEÇÃO 3 — RODAPÉ ============ -->
+  <section class="secao rodape" id="contato">
+    <img class="rodape__tomate" id="rodapeTomate" alt="" src="">
+    <span class="rodape__pincel" aria-hidden="true"></span>
+    <div class="container">
+      <div class="rodape__grid">
+        <div>
+          <div class="rodape__marca">
+            <img id="rodapeLogo" alt="" src="">
+            <img class="rodape__fresh" id="rodapeFresh" alt="" src="">
+          </div>
+          <div class="redes" id="redes"></div>
+        </div>
+        <div id="colunas" style="display:contents"></div>
+      </div>
+      <p class="assinatura" id="assinatura"></p>
+    </div>
+  </section>
+</div>
+
+
+  <script src="js/conteudo.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
