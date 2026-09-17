@@ -11,7 +11,7 @@ $("#navLinks").innerHTML = CONTEUDO.navegacao
   .map(l => `<a class="nav__link" href="${l.alvo}">${l.rotulo}</a>`).join("");
 $("#navSocial").innerHTML = [
   { rede: "instagram", link: "https://www.instagram.com/pizzariados_manos?stkn=bjhld2F2a3cWhr" },
-  { rede: "whatsapp", link: "https://wa.me/c/202946516119727" }
+  { rede: "whatsapp", link: "https://api.whatsapp.com/send/?phone=5582991102728&text&type=phone_number&app_absent=0&utm_source=ig" }
 ].map(s => `<a href="${s.link}" target="_blank" rel="noreferrer" aria-label="${s.rede}">${ICONES[s.rede] || ""}</a>`).join("");
 
 /* seção 1 */
@@ -23,6 +23,8 @@ $("#heroTitulo").innerHTML =
 texto("#heroTexto", b.texto);
 $("#heroBtn").querySelector("span").textContent = b.botao;
 $("#heroBtn").href = b.botaoAlvo;
+$("#pedidoBtn").querySelector("span").textContent = b.pedido;
+$("#pedidoBtn").href = b.pedidoAlvo;
 $("#heroFoto").src = b.foto;
 $("#heroFoto").alt = "Pizza da casa em tábua de madeira";
 

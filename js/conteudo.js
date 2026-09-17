@@ -37,6 +37,8 @@ const CONTEUDO = {
     texto: "Ingredientes selecionados, massa artesanal e muito mais sabor para o seu momento.",
     botao: "Ver Cardápio",
     botaoAlvo: "#cardapio",
+    pedido: "Faça seu pedido",
+    pedidoAlvo: "https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5582991102728%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAafXTrXRayYdiVpX5lHi3Wdq1j840jNA77RB6ApHoTiN3hFvlucj6t8UKZ-UEQ_aem_PcfD_YearQbkeAQjkFF47w&e=AUB5Q5URNsUaqeZy75XCV33MXJiYAY1KDn0akzqzT7wiuHt1vjmqgKdl6f9v0ImiTWQWrqdyx2zzwR_QgNx_fMsrvVdDVSUYLS5YVoj8y01LPLBF7VL0FbguJ7oZZOz19D_LxyCFnduSjtn7HierTTg",
     foto: IMG.hero
   },
 

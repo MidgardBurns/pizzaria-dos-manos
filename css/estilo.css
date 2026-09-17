@@ -116,6 +116,7 @@ button{font:inherit}
 .rabisco{display:block;width:clamp(150px,18vw,240px);margin:-6px 0 20px 4px}
 .rabisco path{fill:none;stroke:var(--ouro);stroke-width:7;stroke-linecap:round}
 .banner__texto{font-size:clamp(16px,1.25vw,20px);line-height:1.55;max-width:34ch;margin:0 0 30px;text-shadow:0 1px 0 rgba(20,51,47,.03)}
+.banner__botoes{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
 .btn{
   display:inline-flex;align-items:center;gap:14px;
   background:linear-gradient(180deg, #f7c756 0%, var(--ouro) 100%);
@@ -215,6 +216,8 @@ button{font:inherit}
 @media (max-width:480px){
   .pizzas{grid-template-columns:1fr}
   .selo{height:88px}
+  .banner__botoes{align-items:stretch;flex-direction:column}
+  .banner__botoes .btn{justify-content:center}
 }
 @media (prefers-reduced-motion:reduce){
   html,.paginas{scroll-behavior:auto}
